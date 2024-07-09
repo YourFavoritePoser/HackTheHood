@@ -14,15 +14,17 @@ if __name__ == "__main__":
 
     print(f"{hero.name}'s Weapons:")
     for weapon in hero.weapons:
-        print(f"- {weapon.name} with max damage of {weapon.damage}")
+        print(f"- {weapon.name} with max damage of {weapon.max_damage}")
     print(f"HP: {hero.health}")
 
     print("------------------------------------------")
 
     print(f"{opponent.name}'s Weapons:")
     for weapon in opponent.weapons:
-        print(f"- {weapon.name} with max damage of {weapon.damage}")
+        print(f"- {weapon.name} with max damage of {weapon.max_damage}")
     print(f"HP: {opponent.health}")
+
+    print("------------------------------------------")
 
     while hero.health > 0 and opponent.health > 0:
         print("\nHero's turn:")
