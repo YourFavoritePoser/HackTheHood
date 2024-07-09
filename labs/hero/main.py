@@ -32,7 +32,7 @@ if __name__ == "__main__":
         print("\nHero's turn:")
         damage = hero.attack()
         opponent.take_damage(damage)
-        print(f"{hero.name} attacked {opponent.name} for {random.randint(0, damage)} damage. {opponent.name}'s health is now {opponent.health}.")
+        print(f"{hero.name} attacked {opponent.name} for {damage} damage. {opponent.name}'s health is now {opponent.health}.")
 
         if opponent.is_dead():
             print(f"\n{hero.name} has defeated {opponent.name}!")
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         print("\nOpponent's turn:")
         damage = opponent.attack()
         hero.take_damage(damage)
-        print(f"{opponent.name} attacked {hero.name} for {random.randint(0, damage)} damage. {hero.name}'s health is now {hero.health}.")
+        print(f"{opponent.name} attacked {hero.name} for {damage} damage. {hero.name}'s health is now {hero.health}.")
 
         if hero.is_dead():
             print(f"\n{opponent.name} has defeated {hero.name}!")

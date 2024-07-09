@@ -6,4 +6,4 @@ class Weapon:
         self.max_damage = max_damage
 
     def attack(self):
-        return self.max_damage
+        return random.randint(0, self.max_damage)
