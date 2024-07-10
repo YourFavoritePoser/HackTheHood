@@ -4,6 +4,8 @@ class Hero:
         self.health = health
         self.weapons = []
         self.armor = []
+        self.kills = 0
+        self.deaths = 0
 
     def add_weapon(self, weapon):
         self.weapons.append(weapon)
@@ -21,3 +23,14 @@ class Hero:
 
     def is_dead(self):
         return self.health == 0
+    
+    def battle(self):
+        pass
+    
+    def add_kill(self):
+        self.kills += 1
+        return self.kills
+    
+    def add_death(self):
+        self.deaths += 1
+        return self.deaths
