@@ -1,5 +1,7 @@
 from hero import Hero
+from ability import Ability
 
+# Heroes
 toad = Hero("Toad")
 scooby = Hero("Scooby-Doo")
 
@@ -13,4 +15,12 @@ print(scooby.current_health)
 
 print("--------------------------")
 
+# Abilities
+fart = Ability("Fart", 35)
+bite = Ability("Bite", 40)
+
+# Battle
 toad.battle(scooby)
+
+# testing attributes
+print(fart.attack())
