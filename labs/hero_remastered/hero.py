@@ -22,16 +22,23 @@ class Hero:
 
     def attack(self, opponent):
         total_damage = 0
-        total_block = 0
 
         for ability in self.abilities:
             total_damage += ability.attack()
 
+        return total_damage
+
+    def defend(self):
+        total_block = 0
+
         for armor in self.armors:
             total_block += armor.block()
 
-        effective_damage = total_damage - total_block
+        return total_block
+    
+    def take_damage(self, opponent):
+        effective_damage = self.attack() - self.defend()
         if effective_damage < 0:
             effective_damage = 0
-
-        opponent.current_health -= total_damage
+            
+        opponent.current_health -= effective_damage
