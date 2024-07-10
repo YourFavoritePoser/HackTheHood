@@ -7,8 +7,8 @@ toad = Hero("Toad")
 scooby = Hero("Scooby-Doo")
 
 # Abilities
-blow = Ability("Blow", 30)
-bite = Ability("Bite", 35)
+blow = Ability("Blow", 70)
+bite = Ability("Bite", 80)
 
 # Armors
 shield = Armor("Shield", 30)
