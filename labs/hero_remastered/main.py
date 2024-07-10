@@ -1,26 +1,32 @@
 from hero import Hero
 from ability import Ability
+from armor import Armor
 
 # Heroes
 toad = Hero("Toad")
 scooby = Hero("Scooby-Doo")
 
-print(toad.name)
-print(toad.current_health)
-
-print("--------------------------")
-
-print(scooby.name)
-print(scooby.current_health)
-
-print("--------------------------")
-
 # Abilities
-fart = Ability("Fart", 35)
-bite = Ability("Bite", 40)
+blow = Ability("Blow", 30)
+bite = Ability("Bite", 35)
 
-# Battle
-toad.battle(scooby)
+# Armors
+shield = Armor("Shield", 30)
+helmet = Armor("Helmet", 20)
 
-# testing attributes
-print(fart.attack())
+# Toads armors and abilities
+toad.add_ability(blow)
+toad.add_armor(shield)
+
+# Scoobys armors and abilities
+scooby.add_ability(bite)
+scooby.add_armor(helmet)
+
+# Print
+print(f"{toad.name}'s Abilities: ")
+for ability in toad.abilities:
+    print(f"- {ability.name}")
+
+print(f"{toad.name}'s Armors: ")
+for armor in toad.armors:
+    print(f"- {armor.name}")
