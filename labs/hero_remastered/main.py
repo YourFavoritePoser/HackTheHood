@@ -46,5 +46,6 @@ print(f"HP: {scooby.current_health}")
 
 print("------------------------")
 
-# Attack
-pass
+# Battle
+
+scooby.battle(toad)

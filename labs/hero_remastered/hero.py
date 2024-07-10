@@ -10,10 +10,6 @@ class Hero:
         self.abilities = []
         self.armors = []
 
-    '''def battle(self, opponent):
-        winner = random.choice([self.name, opponent.name])
-        print(f"Winner: {winner}")'''
-
     def add_ability(self, ability):
         self.abilities.append(ability)
 
@@ -42,3 +38,9 @@ class Hero:
             effective_damage = 0
             
         opponent.current_health -= effective_damage
+
+    def battle(self, opponent):
+        if self.current_health and opponent.current_health > 0:
+            print("battle test")
+        else:
+            print("fail")
