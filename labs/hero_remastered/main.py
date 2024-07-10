@@ -22,11 +22,18 @@ toad.add_armor(shield)
 scooby.add_ability(bite)
 scooby.add_armor(helmet)
 
-# Print
-print(f"{toad.name}'s Abilities: ")
+print(f"{toad.name}'s Abilities:")
 for ability in toad.abilities:
-    print(f"- {ability.name}")
+    print(f"- {ability.name} max damage: {ability.max_damage}")
+print(f"HP: {toad.current_health}")
 
-print(f"{toad.name}'s Armors: ")
-for armor in toad.armors:
-    print(f"- {armor.name}")
+print(f"{scooby.name}'scoobys Armors:")
+for armor in scooby.armors:
+    print(f"- {armor.name} max block: {armor.max_block}")
+print(f"HP: {scooby.current_health}")
+
+
+# Attack
+toad.attack(scooby)
+
+print(scooby.current_health)
