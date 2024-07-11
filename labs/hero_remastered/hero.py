@@ -9,12 +9,16 @@ class Hero:
         self.current_health = starting_health
         self.abilities = []
         self.armors = []
+        self.weapons = []
 
     def add_ability(self, ability):
         self.abilities.append(ability)
 
     def add_armor(self, armor):
         self.armors.append(armor)
+
+    def add_weapon(self, weapon):
+        self.weapons.append(weapon)
 
     def attack(self):
         total_damage = sum(a.attack() for a in self.abilities)
@@ -44,4 +48,4 @@ class Hero:
 
         winner = self if self.is_alive() else opponent
         print(f"The Winner is {winner.name}!")
-        
+
