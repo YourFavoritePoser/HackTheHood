@@ -10,6 +10,8 @@ class Hero:
         self.abilities = []
         self.armors = []
         self.weapons = []
+        self.kills = 0
+        self.deaths = 0
 
     def add_ability(self, ability):
         self.abilities.append(ability)
@@ -19,6 +21,12 @@ class Hero:
 
     def add_weapon(self, weapon):
         self.weapons.append(weapon)
+
+    def add_kill(self):
+        self.kills += 1
+
+    def add_death(self):
+        self.deaths += 1
 
     def attack(self):
         total_damage = sum(a.attack() for a in self.abilities)
