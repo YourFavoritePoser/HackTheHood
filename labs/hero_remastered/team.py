@@ -2,8 +2,8 @@ class Team:
     def __init__(self, name):
         self.name = name
         self.heroes = []
-        self.kills = []
-        self.deaths = []
+        self.kills = 0
+        self.deaths = 0
 
     def add_hero(self, hero):
         self.heroes.append(hero)
