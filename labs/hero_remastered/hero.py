@@ -23,6 +23,9 @@ class Hero:
     def defend(self):
         total_block = sum(b.block() for b in self.armors)
         return total_block
+    
+    def is_alive(self):
+        return self.current_health > 0
 
     def take_damage(self, damage):
         effective_damage = max(damage - self.defend(), 0)
