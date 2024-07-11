@@ -17,15 +17,11 @@ class Hero:
         self.armors.append(armor)
 
     def attack(self):
-        total_damage = 0
-        for ability in self.abilities:
-            total_damage += ability.attack()
+        total_damage = sum(a.attack() for a in self.abilities)
         return total_damage
 
     def defend(self):
-        total_block = 0
-        for armor in self.armors:
-            total_block += armor.block()
+        total_block = sum(b.block() for b in self.armors)
         return total_block
 
     def take_damage(self, damage):
