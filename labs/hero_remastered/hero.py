@@ -23,37 +23,25 @@ class Hero:
     def defend(self):
         total_block = sum(b.block() for b in self.armors)
         return total_block
-    
-    def is_alive(self):
-        return self.current_health > 0
 
     def take_damage(self, damage):
         effective_damage = max(damage - self.defend(), 0)
         self.current_health -= effective_damage
         self.current_health = max(self.current_health, 0)
 
+    def is_alive(self):
+        return self.current_health > 0
+
     def battle(self, opponent):
-        if not self.abilities and not opponent.abilities:
-            print("Draw")
-            return
+        print(f"{self.name} battles {opponent.name}")
+        while self.is_alive() and opponent.is_alive():
+            # Heroes Turn
+            print(f"{self.name}'s Turn:")
+            opponent.take_damage(self.attack())
+            # Opponents Turn
+            print(f"{opponent.name}'s Turn:")
+            self.take_damage(opponent.attack())
 
-        while self.current_health > 0 and opponent.current_health > 0:
-            # Heroes turn
-            damage_to_opponent = self.attack()
-            opponent.take_damage(damage_to_opponent)
-            print(f"{self.name} attacks {opponent.name} for {damage_to_opponent} damage.")
-            print(f"{opponent.name}'s health: {opponent.current_health}")
-            
-            if opponent.current_health <= 0:
-                print(f"{self.name} won!")
-                return
-
-            # Opponents turn
-            damage_to_self = opponent.attack()
-            self.take_damage(damage_to_self)
-            print(f"{opponent.name} attacks {self.name} for {damage_to_self} damage.")
-            print(f"{self.name}'s health: {self.current_health}")
-            
-            if self.current_health <= 0:
-                print(f"{opponent.name} won!")
-                return
+        winner = self if self.is_alive() else opponent
+        print(f"The Winner is {winner.name}!")
+        
