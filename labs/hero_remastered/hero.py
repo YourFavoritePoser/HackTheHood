@@ -25,12 +25,9 @@ class Hero:
         return total_block
 
     def take_damage(self, damage):
-        effective_damage = damage - self.defend()
-        if effective_damage < 0:
-            effective_damage = 0
+        effective_damage = max(damage - self.defend(), 0)
         self.current_health -= effective_damage
-        if self.current_health < 0:
-            self.current_health = 0
+        self.current_health = max(self.current_health, 0)
 
     def battle(self, opponent):
         if not self.abilities and not opponent.abilities:
