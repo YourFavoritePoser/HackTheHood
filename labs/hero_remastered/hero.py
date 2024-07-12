@@ -43,17 +43,23 @@ class Hero:
 
     def is_alive(self):
         return self.current_health > 0
-
+    
     def battle(self, opponent):
-        print(f"{self.name} battles {opponent.name}")
         while self.is_alive() and opponent.is_alive():
-            # Heroes Turn
-            print(f"{self.name}'s Turn:")
+            # Heros Turn
+            print(f"{self.name} attacks...")
+    
             opponent.take_damage(self.attack())
-            # Opponents Turn
-            print(f"{opponent.name}'s Turn:")
+            print(f"{opponent.name} now has {opponent.current_health} health.")
+
+            print(f"{opponent.name} attacks...")
+
             self.take_damage(opponent.attack())
+            print(f"{self.name} now has {self.current_health} health.")
+
+            print("----------------------------")
 
         winner = self if self.is_alive() else opponent
-        print(f"The Winner is {winner.name}!")
+        print(f"{winner.name} won.")
 
+    
