@@ -1,7 +1,7 @@
-# Project Title
+# 90 Day Oakland Police Dept. Study
 
 ## Dataset
-[CrimeWatch Maps Past 90-Days] (https://data.oaklandca.gov/Public-Safety/CrimeWatch-Maps-Past-90-Days/ym6k-rx7a/about_data)
+CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWatch-Maps-Past-90-Days/ym6k-rx7a/about_data)
 
 ## Why did I choose this dataset?
 
