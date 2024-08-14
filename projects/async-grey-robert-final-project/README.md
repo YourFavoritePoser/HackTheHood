@@ -10,48 +10,40 @@
 ## Progress
 - [x] Picked dataset
 - [x] Wrote explaination
-- [ ] Defined questions
+- [x] Defined questions
 - [ ] Answered questions using Pandas
 - [ ] Added data visualizations (using Matplotlib and/or Seaborn)
 - [ ] Prepared presentation slides
 
 ## Questions
-- [ ] Question 1: *Your first question here*
+- [ ] Question 1: *What is the most common type of crime in Oakland?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q1 Visualization](Path to image 1)
+  - Visualization: ![Q1 Visualization]
 
-- [ ] Question 2: *Your second question here*
+- [ ] Question 2: *How does the frequency of different crime types vary by neighborhood?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q2 Visualization](Path to image 2)
+  - Visualization: ![Q2 Visualization]
 
-- [ ] Question 3: *Your third question here*
+- [ ] Question 3: *Are there any noticeable trends in crime over time ?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q3 Visualization](Path to image 3)
+  - Visualization: ![Q3 Visualization]
 
-- [ ] Question 4: *Your fourth question here*
+- [ ] Question 4: *Is there a correlation between the time of day and the type of crime committed?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q4 Visualization](Path to image 4)
+  - Visualization: ![Q4 Visualization]
 
-- [ ] Question 5: *Your fifth question here*
+- [ ] Question 5: *Where are the hotspots for specific types of crimes in Oakland?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q5 Visualization](Path to image 5)
+  - Visualization: ![Q5 Visualization]
 
-- [ ] Question 6: *Your sixth question here*
+- [ ] Question 6: *Are there any patterns in repeat offenses at the same address?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q6 Visualization](Path to image 6)
+  - Visualization: ![Q6 Visualization]
 
-- [ ] Question 7: *Your seventh question here*
+- [ ] Question 7: *What proportion of crimes involve property versus violent crimes?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q7 Visualization](Path to image 7)
+  - Visualization: ![Q7 Visualization]
 
-- [ ] Question 8: *Your eighth question here*
+- [ ] Question 8: *How has the rate of vehicle theft changed over time?*
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q8 Visualization](Path to image 8)
-
-- [ ] Question 9: *Your ninth question here*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q9 Visualization](Path to image 9)
-
-- [ ] Question 10: *Your tenth question here*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q10 Visualization](Path to image 10)
+  - Visualization: ![Q8 Visualization]
