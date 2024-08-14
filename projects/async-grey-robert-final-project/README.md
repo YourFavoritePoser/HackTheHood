@@ -5,7 +5,7 @@
 
 ## Why did I choose this dataset?
 
-*I chose this dataset because I am interested in current police actiivity in my community and am upset with how secrative our police department is and how limited the publics access to this information.*
+*I chose this dataset because I am interested in current police actiivity in my community and am upset with how secrative our police department is and how limited the publics access to this information is.*
 
 ## Progress
 - [x] Picked dataset
