@@ -16,9 +16,9 @@
 - [ ] Prepared presentation slides
 
 ## Questions
-- [ ] Question 1: *What is the most common type of crime in Oakland?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q1 Visualization]
+- [x] Question 1: *What is the most common type of crime in Oakland?*
+  - Answer: [Vehicle Theft by far, followed by Burgalry and Misdemeanor Assault]
+  - Visualization: ![Q1 Visualization](visualizations/crime-type-dist.png)
 
 - [ ] Question 2: *How does the frequency of different crime types vary by neighborhood?*
   - Answer: [Placeholder for answer]
