@@ -5,10 +5,11 @@
 
 ## Why did I choose this dataset?
 
-*Provide a brief explanation of why you selected this dataset.*
+*I chose this dataset because I am interested in current police actiivity in my community and am upset with how secrative our police department is and how limited the publics access to this information.*
 
 ## Progress
 - [x] Picked dataset
+- [x] Wrote explaination
 - [ ] Defined questions
 - [ ] Answered questions using Pandas
 - [ ] Added data visualizations (using Matplotlib and/or Seaborn)
