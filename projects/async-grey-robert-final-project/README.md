@@ -17,7 +17,7 @@
 
 ## Questions
 - [x] Question 1: *What is the most common type of crime in Oakland?*
-  - Answer: [Vehicle Theft by far, followed by Burgalry and Misdemeanor Assault]
+  - Answer: Vehicle Theft by far, followed by Burgalry and Misdemeanor Assault.
   - Visualization: ![Q1 Visualization](visualizations/crime-type-dist.png)
 
 - [ ] Question 2: *How does the frequency of different crime types vary by neighborhood?*
