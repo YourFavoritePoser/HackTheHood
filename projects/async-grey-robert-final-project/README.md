@@ -24,26 +24,6 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
   - Answer: The most incidents occured near International Blvd. followed by 2 districs in Downtown Oakland.
   - Visualization: ![Q2 Visualization](visualizations/crime-beat-dist.png)
 
-- [ ] Question 3: *Are there any noticeable trends in crime over time ?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q3 Visualization]
-
-- [ ] Question 4: *Is there a correlation between the time of day and the type of crime committed?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q4 Visualization]
-
-- [ ] Question 5: *Where are the hotspots for specific types of crimes in Oakland?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q5 Visualization]
-
-- [ ] Question 6: *Are there any patterns in repeat offenses at the same address?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q6 Visualization]
-
-- [ ] Question 7: *What proportion of crimes involve property versus violent crimes?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q7 Visualization]
-
-- [ ] Question 8: *How has the rate of vehicle theft changed over time?*
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q8 Visualization]
+  - [ ] Question 3: *placeholder?*
+    - Answer: 
+    - Visualization: ![Q3 Visualization]()
