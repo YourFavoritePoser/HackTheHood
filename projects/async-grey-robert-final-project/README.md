@@ -20,8 +20,8 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
   - Answer: Vehicle Theft by far, followed by Robbery and Misdemeanor Assault.
   - Visualization: ![Q1 Visualization](visualizations/crime-type-dist.png)
 
-- [x] Question 2: *How does the frequency of different crime types vary by neighborhood?*
-  - Answer: The most incidents occured near International Blvd. followed by 2 districs in Downtown Oakland.
+- [x] Question 2: *How does the frequency of different crime types vary by beat code?*
+  - Answer: The most incidents occured in beats near International Blvd. followed by 2 beats in Downtown Oakland.
   - Visualization: ![Q2 Visualization](visualizations/crime-beat-dist.png)
 
 - [x] Question 3: *What areas have the highest crime rate?*
