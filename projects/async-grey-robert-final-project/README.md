@@ -17,7 +17,7 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
 
 ## Questions
 - [x] Question 1: *What is the most common type of crime in Oakland?*
-  - Answer: Vehicle Theft by far, followed by Burgalry and Misdemeanor Assault.
+  - Answer: Vehicle Theft by far, followed by Robbery and Misdemeanor Assault.
   - Visualization: ![Q1 Visualization](visualizations/crime-type-dist.png)
 
 - [x] Question 2: *How does the frequency of different crime types vary by neighborhood?*
@@ -31,4 +31,3 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
 - [ ] Question 4: *What types of crimes are being committed in each area?*
   - Answer: 
   - Visualizations: ![Q4 Visualization]()
-  
