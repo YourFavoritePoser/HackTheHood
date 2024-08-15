@@ -24,6 +24,6 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
   - Answer: The most incidents occured near International Blvd. followed by 2 districs in Downtown Oakland.
   - Visualization: ![Q2 Visualization](visualizations/crime-beat-dist.png)
 
-  - [ ] Question 3: *What areas have the highest crime rate?*
-    - Answer: Area 5, or Deep East Oakland around the coleseum and 55th street are experiencing the highest crime rates as of the last 90 days.
-    - Visualization: ![Q3 Visualization](visualizations/crime-area-dist.png)![Crime by Area](images/OPD_beat_mid.png)
+- [ ] Question 3: *What areas have the highest crime rate?*
+  - Answer: Area 5, or Deep East Oakland around the coleseum and 55th street are experiencing the highest crime rates as of the last 90 days.
+  - Visualization: ![Q3 Visualization](visualizations/crime-area-dist.png)![Crime by Area](images/OPD_beat_mid.png)
