@@ -26,7 +26,7 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
 
 - [x] Question 3: *What areas have the highest crime rate?*
   - Answer: Area 5, or Deep East Oakland around the coleseum and 55th street are experiencing the highest crime rates as of the last 90 days.
-  - Visualization: ![Q3 Visualization](visualizations/crime-area-dist.png)![Crime by Area](images/OPD_beat_mid.png)
+  - Visualization: ![Q3 Visualization](visualizations/incidents_by_neighborhood.png)![Crime by Area](images/OPD_beat_mid.png)
 
 - [ ] Question 4: *What types of crimes are being committed in each area?*
   - Answer: 
