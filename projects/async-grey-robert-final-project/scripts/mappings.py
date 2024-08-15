@@ -7,9 +7,9 @@ beat_to_area = {'01X': 'Area 1', '02X': 'Area 1', '02Y': 'Area 1', '03X': 'Area 
 # Dictionary mapping police beats to neighborhood names
 
 area_to_neighborhood = {
-    'Area 1': 'Downtown & West Oakland',
-    'Area 2': 'North Oakland',
-    'Area 3': 'Lake Merritt East Oakland',
-    'Area 4': 'High St. East Oakland',
-    'Area 5': 'Deep East Oakland & Airport',
+    'Area 1': 'Downtown & West Oakland (Area 1)',
+    'Area 2': 'North Oakland (Area 2)',
+    'Area 3': 'Lake Merritt East Oakland (Area 3)',
+    'Area 4': 'High St. East Oakland (Area 4)',
+    'Area 5': 'Deep East Oakland & Airport (Area 5)',
 }
