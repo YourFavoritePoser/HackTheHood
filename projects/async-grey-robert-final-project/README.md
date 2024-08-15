@@ -25,7 +25,7 @@ CrimeWatch Maps Past 90-Days - (https://data.oaklandca.gov/Public-Safety/CrimeWa
   - Visualization: ![Crime Rate Area Visualization](visualizations/incidents_by_neighborhood.png)![OPD Beat Map](images/OPD_beat_mid.png)
 
 - [x] Question 3: *How does the frequency of different crime types vary by beat code?*
-  - Answer: The most incidents occured in beats near International Blvd. followed by 2 beats in Downtown Oakland.
+  - Answer: The most incidents occured in beat 19X near International Blvd. followed by 2 beats in Downtown Oakland.
   - Visualization: ![Crime Rate Beat Visualization](visualizations/crime-beat-dist.png)
 
 - [ ] Question 4: *What types of crimes are being committed in each area?*
